@@ -5,8 +5,6 @@ F:\>mkdir ajv001
 F:\>cd ajv001
 
 F:\ajv001>npm init
-
-F:\ajv001>npm init
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
 
@@ -46,9 +44,7 @@ About to write to F:\ajv001\package.json:
   "license": "ISC"
 }
 
-
 Is this OK? (yes)
-
 
 F:\ajv001>npm install ajv@6
 

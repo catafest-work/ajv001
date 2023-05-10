@@ -2,8 +2,6 @@ import Ajv from "ajv";
 import fs from 'fs';
 const ajv = new Ajv() // options can be passed, e.g. {allErrors: true}
 
-
-
 const schema = {
   type: "object",
   properties: {
@@ -20,6 +18,8 @@ const data = {
   foo: 1,
   bar: "abc"
 }
+
+console.log("validate(data) "+validate(data))
 
 const valid = validate(data)
 if (!valid) console.log(validate.errors)
